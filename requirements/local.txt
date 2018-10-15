@@ -1,0 +1,30 @@
+-r base.txt
+
+# ==============================================================================
+# Linting
+# ==============================================================================
+
+# https://www.pylint.org/
+pylint==2.1.1
+
+# ==============================================================================
+# Testing
+# ==============================================================================
+
+# pytest is a mature full-featured Python testing tool that helps you write better programs.
+# Homepage: https://docs.pytest.org/en/latest/
+pytest==3.8.2
+
+# Coverage.py is a tool for measuring code coverage of Python programs.
+# It monitors your program, noting which parts of the code have been executed,
+# then analyzes the source to identify code that could have been executed but was not.
+# Homepage: https://coverage.readthedocs.io/en/coverage-4.5.1x/
+coverage==4.5.1
+
+# Faker is a Python package that generates fake data for you.
+# Homepage: https://github.com/joke2k/faker
+Faker==0.9.1
+
+# Use for test the HTTP status code
+# Homepage: http://docs.python-requests.org/en/master/
+requests==2.19.1
