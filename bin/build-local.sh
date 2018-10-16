@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build --target local-stage -t tranhoangnguyen/flask-alpine:local .
+docker build --target local-stage -t pocflask/alpine:local .

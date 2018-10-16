@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t tranhoangnguyen/flask-alpine:prod .
+docker build -t pocflask/alpine:prod .
