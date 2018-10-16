@@ -1,1 +1,9 @@
 -r base.txt
+
+# Gunicorn 'Green Unicorn' is a Python WSGI HTTP Server for UNIX. It's used for heroku deployment.
+# Homepage: https://gunicorn.org/
+gunicorn==19.9.0
+
+# uWSGI is a fast application server written in C. It is very configurable which makes it more complicated to setup than gunicorn.
+# Homepage: http://uwsgi-docs.readthedocs.io/en/latest/
+uwsgi==2.0.17.1
