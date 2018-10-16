@@ -24,7 +24,8 @@ RUN cp /usr/local/bin/* /usr/bin/
 FROM base as dependencies-builder
 # Install build tools for psycopg2 and flask-bcrypt
 RUN apk add --no-cache bash \ 
-    && apk --no-cache add build-base libffi-dev postgresql-dev
+    && apk --no-cache add build-base libffi-dev postgresql-dev \
+    && apk --no-cache add python3-dev linux-headers pcre-dev
 RUN mkdir /install
 WORKDIR /install
 
